@@ -60,7 +60,7 @@ function Verify() {
                         setResponseMessage("Please login");
                         setBool(false);
                     } else {
-                        if (resp.similarity > 0.9995) {
+                        if (resp.similarity > 0.99995) {
                             setResponseMessage("ORIGINAL SIGNATURE");
                             setBool(true);
                         } else {
