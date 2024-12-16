@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.nav2nav{
+    margin: 0;
+    background-color: hsla(194, 71%, 12%, 0.953);
+    height: 55px;
+    color:#fff;
+
+}
+.bg-body-tertiary {
+    margin: 0;
+    padding: 0;
+  }
+.nav2drop{
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    transform: translateX(-20px); 
+  }
+  
+  

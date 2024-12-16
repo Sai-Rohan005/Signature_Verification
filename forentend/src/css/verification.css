@@ -1,0 +1,110 @@
+i {
+    margin-right: 10px;
+  }
+  body {
+    /* background-image: url("../imgs/amo-bg.jpg"); */
+    background-size: cover;
+  }
+  .card {
+    background: transparent;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    opacity: 0.8;
+  }
+  .f-upload {
+    background: transparent !important;
+  }
+  
+  /* Container for the whole page */
+.verification-section {
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container for the verification card */
+.verification-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Style for the card containing form elements */
+.verification-card {
+  text-align: center;
+}
+
+/* Form label and input field for uploading images */
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  font-size: 24px;
+  color: #333;
+}
+
+.file-input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+/* Submit button style */
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Response message styling */
+.response-message {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+/* Progress bar container */
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 100%;
+  transition: width 0.2s ease-out;
+}

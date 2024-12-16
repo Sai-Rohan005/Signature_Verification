@@ -1,0 +1,35 @@
+.container-fluid{
+    
+    background-color: hsla(194, 71%, 12%, 0.953);
+    height: 55px;
+    color:#fff;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.navcls{
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+.navtitle{
+    font-family: cursive;
+    font-weight: 700;
+    color: #fff !important;
+    
+}
+
+.navbar{
+    margin: 0 !important;
+
+}
+.bg-body-tertiary {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  

@@ -1,0 +1,33 @@
+i {
+    margin-right: 8px;
+  }
+  a {
+    color: gold;
+  }
+  body {
+    background: url("../imgs/bg-signup.png");
+    background-size: cover;
+  }
+  .card {
+    background: transparent;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    opacity: 0.8;
+  }
+  .custom-navbar {
+    background: linear-gradient(gold, #1c2633);
+  }
+  .custom-button {
+    background-color: transparent;
+    border: 1px solid gold;
+    color: gold;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    &:hover {
+      background-color: gold;
+      color: black;
+    }
+  }
+ 

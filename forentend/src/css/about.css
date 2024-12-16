@@ -1,0 +1,91 @@
+   /* Container for the whole page */
+.aboutsec {
+    background-color: #cecbcb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Content container to center the content inside */
+  .content-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* The about content section */
+  .about-content {
+    margin-top: 20px;
+  }
+  
+  /* Accordion buttons */
+  .accordion {
+    background-color: #eee;
+    color: #383737;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  /* Active accordion state and hover effect */
+  .accordion.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Accordion sign (plus/minus) */
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .accordion.active:after {
+    content: "\2212";
+  }
+  
+  /* Panel (hidden content) */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  /* When panel is active */
+  .panel.active {
+    max-height: 1000px; /* Allow content to expand */
+  }
+  
+  /* Add a subtle box shadow and rounded corners for a polished look */
+  .panel {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Additional styling for paragraphs and headings */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
